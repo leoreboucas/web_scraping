@@ -1,0 +1,13 @@
+{% extends "global/base.html" %}
+
+{% block notices %}
+    <h1>Resumo de notícias da páginas de <a href="https://www.investing.com" target="_blank">Investing</a></h1>
+    <ul>
+        {% for link, atr in notices.items %}
+            <li>
+                <a href="{{atr.link.href}}" target="_blank">{{ atr.link.legend }}</a>
+                <p>{{ atr.text }}</p>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock notices %}
