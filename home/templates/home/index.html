@@ -2,13 +2,17 @@
 
 <!-- Parte da página responsável por exibir as notícias -->
 {% block notices %}
-    <h1>Resumo de notícias da páginas de <a href="https://www.investing.com" target="_blank">Investing</a></h1>
-    <ul>
+    <main class="main">
+        <div class="main-title">
+            <h1>Ultimas notícias da <a href="https://www.investing.com" target="_blank">Investing</a></h1>
+        </div>
+        <article class="main-notices">
         {% for link, atr in notices.items %}
-            <li>
+            <div class="main-notice">
                 <a href="{{atr.link.href}}" target="_blank">{{ atr.link.legend }}</a>
                 <p>{{ atr.text }}</p>
-            </li>
+            </div>
         {% endfor %}
-    </ul>
+        </article>
+    </main>
 {% endblock notices %}
