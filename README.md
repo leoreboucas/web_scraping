@@ -3,6 +3,10 @@
 ## Descrição do Projeto
 <p align="center">O objetivo do projeto foi desenvolver um sistema de raspagem de dados utilizando Python, BeautifulSoup e Requests para extrair informações do site Investing.com, focando em notícias relevantes sobre finanças para os leitores. Utilizei Django como framework para construir uma aplicação web que exibe esses dados de forma organizada e acessível. A aplicação permite aos usuários visualizar notícias em tempo real, agregadas diretamente do site Investing.com. O projeto não apenas demonstra habilidades em web scraping e desenvolvimento web com Django, mas também oferece uma ferramenta prática para acompanhar e analisar informações de mercado de forma eficiente.</p>
 
+## Aviso
+
+<p>O conteúdo das notícias exibidas neste site é de inteira autoria da [Investing.com](https://www.investing.com) e é utilizado exclusivamente para fins informativos. Não há intenção de uso comercial do conteúdo apresentado. </p>
+
 ## Tabela de conteúdos
 =================
 <!--ts-->
